@@ -106,10 +106,6 @@
     {"tag" : "Ragging",
      "patterns" : [ "ragging","is ragging practice active in college","does college have any antiragging facility","is there any ragging cases","is ragging done here","ragging juniors","ragging history","ragging incidents"],
      "responses" : ["We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"]
-    },
-    {"tag" : "Badwords",
-     "patterns" : ["fuck","purush thika kheyaa","purush ganduu kachada"],
-     "responses" :["hwdhu purush adhene ganduu naan maga","yess bro he is dhod ganduu kachadaa"]
     }
 ]
 }
