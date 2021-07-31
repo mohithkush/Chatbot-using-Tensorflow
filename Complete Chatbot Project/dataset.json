@@ -1,0 +1,115 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["How are you", "Is anyone there?","Good day","hey", "What's up?", "hi", "hello"],
+     "responses": ["Hello, thanks for visiting","Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "cya", "bye bye", "I am leaving", "I got to go"],
+     "responses": ["See you later,Bye! thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag" : "Creator",
+     "patterns" : ["what is the name of your developers","what is the name of your creators","what is the name of the developers","what is the name of the creators","who created you","your developers","your creators","who are your developers","developers","you are made by","you are made by whom","who created you","who create you","creators","who made you","who designed you"],
+     "responses" : ["I was created by Mohith!", "I was developed by Mohith", "Mohith created me"]
+    },
+    {"tag" : "Name",
+     "patterns" : [ "name","your name","do you have a name","what are you called","what is your name","what should I call you","whats your name?","what are you","who are you","who is this","what am i chatting to","who am i taking to","what are you"],
+     "responses" : ["I'm Mikasa", "You can call me Mikasa", "My name is Mikasa!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "Thats helpful","Ok","Well done","Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure","I'm glad I helped you"]
+    },
+    {"tag" : "Number",
+     "patterns" : ["contact info","how to contact college","college telephone number","college number","Contact number?","College phone no?","phone no","call"],
+     "responses" : ["College contact number : 0821 - 54XXXX21"]
+    },
+    {"tag" : "Courses",
+     "patterns" : ["list of courses","list of courses offered","what are the courses offered in your college?","courses?","courses offered","courses you offer","branches?"],
+     "responses" : ["For course details \"https://fgc.mahajana.edu.in/courses-2/\" visit this link"]
+    },
+    {"tag" : "Fees",
+     "patterns" : ["information about fee","information on fee","tell me the fee","college fee","fee per semester","what is the fee of each semester","what is the fees of each year","what is fee","what is the fees","how much is the fees","fees for first year","fees","about the fees","tell me something about the fees","fee structure"],
+     "responses" : ["For fee details \"https://fgc.mahajana.edu.in/admissions/\" visit this link"]
+    },
+    {"tag" : "Location",
+     "patterns" : [ "where is the college located","college is located at","where is college","where is college located","address of college","how to reach college","college location","college address","wheres the college","how can I reach college","whats is the college address","what is the address of college","address","location"],
+     "responses" : ["College address : Near Temple Road, 1st Cross VV Mohalla, Jayalakshmipuram, Mysuru, Karnataka 570012"]
+    },
+    {"tag" : "Uniforms",
+     "patterns" : [ "college dress code","college dresscode","what is the uniform","can we wear casuals","Does college have an uniform","Is there any uniform","uniform","what about uniform","do we have to wear uniform"],
+     "responses" : ["College has uniform on Tuesday, Thursday, Saturday and Color dress on Monday, Wednesday and Friday"]
+    },
+    {"tag" : "tasks",
+     "patterns" : [ "what can you do","what are the thing you can do","things you can do","what can u do for me","how u can help me","why i should use you"],
+     "responses" : ["I can answer lower-intermediate question regarding college."]
+    },
+    {"tag" : "Library",
+     "patterns" : ["is there any library","library facility","library facilities","do you have library","does the college have library facility","college library","where can i get books","book facility","Where is library","Library","Tell me about library","how many libraries"],
+     "responses" : ["There are 2 Libraries, One is in 1st Floor and another one is in 2nd Floor."]
+    },
+    {"tag": "Events",
+     "patterns" : [ "events organised","list of events","list of events organised in college","list of events conducted in college","What events are conducted in college","Are there any event held at college","Events?","functions","what are the events","tell me about events","what about events"],
+     "responses" : ["For event details \"https://fgc.mahajana.edu.in/events/#\" Click this link"]
+    },
+    {"tag" : "faculties",
+     "patterns" : ["Who is HOD of Bca", "Who is the HOD of BSC", "Who are the Faculties in commerce","Faculties", "Who are the Faculties"],
+     "responses" : ["For Faculties details \"https://fgc.mahajana.edu.in/faculty/\" Click this link"]
+    },
+    {"tag" : "invalid",
+     "patterns" : ["I love You", "Will you marry me?", "marry me", "Will you be my girlfriend", "Do you love me", "Do you have boyfriend?", "Do you have bf?"],
+     "responses" : ["I am not program for this please ask appropriate query"]
+    },
+    {"tag" : "joke",
+     "patterns" : ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny"],
+     "responses" : ["How do you make holy water? you boil the hell out of it", "Did you hear oxygen went on a date with potassium? A: It went OK."]
+    },
+    {"tag" : "Principal",
+     "patterns" : ["what is the name of principal","what is the principal name","principal name","Who is college principal","Where is principal's office","principal","name of principal"],
+     "responses" : [ "Dr. Jayakumari B R is college principal who is available on Ground floor"]
+    },
+    {"tag" : "infrastructure",
+     "patterns" : ["how is college infrastructure","infrastructure","college infrastructure"],
+     "responses" : ["SBRR Mahajana First Grade College has Excellent Infrastructure. Campus is clean. Good Computer Science Labs With Good Speed of Internet connection"]
+    },
+    {"tag" : "English HOD",
+     "patterns" : ["Who is english hod", "where is english hod","name of english hod", "english hod"],
+     "responses" :["Manjunath K R is English HOD who is available on Ground floor"]
+     },
+    {"tag" : "Commerce HOD",
+     "patterns" : ["Who is commerce hod", "where is commerce hod","name of commerce hod", "commerce hod"],
+     "responses" :["Rashmi Urs M S is Commerce HOD who is available on Ground floor"]
+    },
+    {"tag" : "BUSINESS ADMINISTRATION HOD",
+     "patterns" : ["Who is BUSINESS ADMINISTRATION hod", "where is Business administration hod","name of Business administration hod", "Business administration hod"],
+     "responses" : ["Shyla S is BUSINESS ADMINISTRATION HOD who is available on first floor."]
+    },
+    {"tag" : "KANNADA HOD",
+     "patterns" : ["Who is kannada hod", "where is Kannada hod","name of Kannada hod", "Kannada hod"],
+     "responses" : ["Dr. H R Thimmegowda is Kannada HOD who is available on first floor."]
+    },
+    {"tag" : "Sports",
+     "patterns" : ["What are different sports are there","Is cricket there?", "is basketball there?", "sports", "Different types of sports", "sports list", "is kabbaddi there", "is athletics there?", "Games", "games list", "Different types of games"],
+     "responses" : ["For event details \"https://fgc.mahajana.edu.in/infrastructure/sports/\" Click this link"]
+    },
+    {"tag" : "Computer Science HOD",
+    "patterns" : ["Who is Computer Science hod", "where is Computer Science hod","name of bsc hod", "bsc hod", "computer science hod"],
+    "responses" : ["Shruthy Poonacha is BSC HOD who is available on BSC Department"]
+    },
+    {"tag" : "Hostel",
+     "patterns" : ["hostel facility","hostel servive","hostel location","hostel address","hostel facilities","hostel fees","Does college provide hostel","Is there any hostel","Where is hostel","do you have hostel","do you guys have hostel","hostel","hostel capacity","what is the hostel fee","how to get in hostel","what is the hostel address","how far is hostel from college","hostel college distance","where is the hostel","how big is the hostel","distance between college and hostel","distance between hostel and college"],
+     "responses" : ["SBRR Mahajana First Grade College does provide hostel facility"]
+    },
+    {"tag" : "Canteen",
+     "patterns" : [ "food facilities","canteen facilities","canteen facility","is there any canteen","Is there a cafetaria in college","Does college have canteen","Where is canteen","where is cafetaria","canteen","Cafetaria"],
+     "responses" :["SBRR Mahajana First Grade College has canteen with variety of food available"]
+    },
+    {"tag" : "Ragging",
+     "patterns" : [ "ragging","is ragging practice active in college","does college have any antiragging facility","is there any ragging cases","is ragging done here","ragging juniors","ragging history","ragging incidents"],
+     "responses" : ["We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"]
+    },
+    {"tag" : "Badwords",
+     "patterns" : ["fuck","purush thika kheyaa","purush ganduu kachada"],
+     "responses" :["hwdhu purush adhene ganduu naan maga","yess bro he is dhod ganduu kachadaa"]
+    }
+]
+}

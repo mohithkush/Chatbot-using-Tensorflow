@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="{{ url_for('static', filename='favicons/favicon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+</head>
+
+<body>
+  <div class="home-image">
+    <img src="{{ url_for('static', filename='Images/chatimage.png') }}" class="image" alt="backgroundimage">
+  <h1>SBRR Mahajana First Grade College</h1>
+  <p>Click on the chat icon for college enquiries</p>
+  <div class="home">
+
+    <button class="chat-btn"> <i class="material-icons">comment</i> </button>
+
+    <section class="chat-popup">
+      <main class="msger-chat">
+        <div class="msg left-msg">
+          <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+
+          <div class="msg-bubble">
+
+
+            <div class="msg-text">
+              Hi, How can I help you!
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <form class="msger-inputarea">
+        <input type="text" class="msger-input" placeholder="Enter your message...">
+        <button type="submit" class="msger-send-btn"> <i class="material-icons">send</i></button>
+      </form>
+    </section>
+</div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script src="{{ url_for('static', filename='Script/main.js') }}"></script>
+   
+</body>
+</html>
